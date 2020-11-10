@@ -12,7 +12,7 @@ var connection = mysql.createConnection({
   user: "root",
 
   // Your password and must run database first
-  password: "Apollo12.mysql",
+  password: "",
   database: "employee_db"
 });
 
