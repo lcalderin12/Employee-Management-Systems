@@ -1,7 +1,9 @@
-drop database employee_db;
+/*mysql -u root -p <schema.sql */
+
+/*drop database employee_db; */
 create database employee_db;
 
-use management_db;
+use employee_db;
 
 create table department(
 	id int not null auto_increment,
